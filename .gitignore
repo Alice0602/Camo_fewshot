@@ -14,8 +14,10 @@ kaggle_upload/
 *.7z
 *.tar.gz
 
-# Processed dataset (upload rieng len Kaggle Dataset)
+# Processed dataset & audit JSONs (da upload rieng len Kaggle Dataset)
 runs/processed_data/
+results/camo5_support_5shot_merged.json
+results/DATA_CHECK.md
 
 # Chi giu lai dung 2 model da chon (k5_seed0)
 runs/models/*
