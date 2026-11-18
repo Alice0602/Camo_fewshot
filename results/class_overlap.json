@@ -1,0 +1,1438 @@
+{
+  "num_total_classes": 47,
+  "exact_or_token_overlap_yolo_ids": [
+    10,
+    16,
+    18,
+    20,
+    21,
+    23,
+    26,
+    31
+  ],
+  "All_overlap_including_semantic_yolo_ids": [
+    10,
+    16,
+    18,
+    20,
+    21,
+    23,
+    26,
+    31,
+    19,
+    22,
+    24,
+    28,
+    29,
+    35,
+    38
+  ],
+  "pure_novel_yolo_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    25,
+    27,
+    30,
+    32,
+    33,
+    34,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "classes": [
+    {
+      "category_id": 0,
+      "yolo_id": 0,
+      "name": "Frog",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 1,
+      "yolo_id": 1,
+      "name": "Crab",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 2,
+      "yolo_id": 2,
+      "name": "Dolphin",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 3,
+      "yolo_id": 3,
+      "name": "Fish",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 4,
+      "yolo_id": 4,
+      "name": "Octopus",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 5,
+      "yolo_id": 5,
+      "name": "Seahorse",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 6,
+      "yolo_id": 6,
+      "name": "Shrimp",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 7,
+      "yolo_id": 7,
+      "name": "Starfish",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 8,
+      "yolo_id": 8,
+      "name": "Scorpion",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 9,
+      "yolo_id": 9,
+      "name": "Spider",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 10,
+      "yolo_id": 10,
+      "name": "Bird",
+      "match_type": "exact",
+      "matched_coco": "bird"
+    },
+    {
+      "category_id": 11,
+      "yolo_id": 11,
+      "name": "Penguin",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 12,
+      "yolo_id": 12,
+      "name": "Snail",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 13,
+      "yolo_id": 13,
+      "name": "Insect",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 14,
+      "yolo_id": 14,
+      "name": "Moth",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 15,
+      "yolo_id": 15,
+      "name": "Bat",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 16,
+      "yolo_id": 16,
+      "name": "Bear",
+      "match_type": "exact",
+      "matched_coco": "bear"
+    },
+    {
+      "category_id": 17,
+      "yolo_id": 17,
+      "name": "Camel",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 18,
+      "yolo_id": 18,
+      "name": "Cat",
+      "match_type": "exact",
+      "matched_coco": "cat"
+    },
+    {
+      "category_id": 19,
+      "yolo_id": 19,
+      "name": "Deer",
+      "match_type": "semantic_family",
+      "matched_coco": "sheep/cow/horse (ungulate)"
+    },
+    {
+      "category_id": 20,
+      "yolo_id": 20,
+      "name": "Dog",
+      "match_type": "exact",
+      "matched_coco": "dog"
+    },
+    {
+      "category_id": 21,
+      "yolo_id": 21,
+      "name": "Elephant",
+      "match_type": "exact",
+      "matched_coco": "elephant"
+    },
+    {
+      "category_id": 22,
+      "yolo_id": 22,
+      "name": "Fox",
+      "match_type": "semantic_family",
+      "matched_coco": "dog"
+    },
+    {
+      "category_id": 23,
+      "yolo_id": 23,
+      "name": "Giraffe",
+      "match_type": "exact",
+      "matched_coco": "giraffe"
+    },
+    {
+      "category_id": 24,
+      "yolo_id": 24,
+      "name": "Goat",
+      "match_type": "semantic_family",
+      "matched_coco": "sheep"
+    },
+    {
+      "category_id": 25,
+      "yolo_id": 25,
+      "name": "Hedgehog",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 26,
+      "yolo_id": 26,
+      "name": "Horse",
+      "match_type": "exact",
+      "matched_coco": "horse"
+    },
+    {
+      "category_id": 27,
+      "yolo_id": 27,
+      "name": "Kangaroo",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 28,
+      "yolo_id": 28,
+      "name": "Leopard",
+      "match_type": "semantic_family",
+      "matched_coco": "cat"
+    },
+    {
+      "category_id": 29,
+      "yolo_id": 29,
+      "name": "Lion",
+      "match_type": "semantic_family",
+      "matched_coco": "cat"
+    },
+    {
+      "category_id": 30,
+      "yolo_id": 30,
+      "name": "Monkey",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 31,
+      "yolo_id": 31,
+      "name": "Mouse",
+      "match_type": "exact",
+      "matched_coco": "mouse"
+    },
+    {
+      "category_id": 32,
+      "yolo_id": 32,
+      "name": "Pig",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 33,
+      "yolo_id": 33,
+      "name": "Rabbit",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 34,
+      "yolo_id": 34,
+      "name": "Rhino",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 35,
+      "yolo_id": 35,
+      "name": "Sea_Lion",
+      "match_type": "semantic_family",
+      "matched_coco": "cat"
+    },
+    {
+      "category_id": 36,
+      "yolo_id": 36,
+      "name": "Sloth",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 37,
+      "yolo_id": 37,
+      "name": "Squirrel",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 38,
+      "yolo_id": 38,
+      "name": "Tiger",
+      "match_type": "semantic_family",
+      "matched_coco": "cat"
+    },
+    {
+      "category_id": 39,
+      "yolo_id": 39,
+      "name": "Weasel",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 40,
+      "yolo_id": 40,
+      "name": "Body_Painting",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 41,
+      "yolo_id": 41,
+      "name": "Solider",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 42,
+      "yolo_id": 42,
+      "name": "Crocodile",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 43,
+      "yolo_id": 43,
+      "name": "Lizard",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 44,
+      "yolo_id": 44,
+      "name": "Snake",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 45,
+      "yolo_id": 45,
+      "name": "Turtle",
+      "match_type": "novel",
+      "matched_coco": ""
+    },
+    {
+      "category_id": 46,
+      "yolo_id": 46,
+      "name": "Worm",
+      "match_type": "novel",
+      "matched_coco": ""
+    }
+  ],
+  "discrepancy_analysis": {
+    "total_disk_image_files": 2852,
+    "unique_disk_image_names": 2852,
+    "unique_json_image_names": 2852,
+    "on_disk_not_in_json": [],
+    "in_json_not_on_disk": [],
+    "shared_across_json_splits": {
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_2shot_split1.json": [
+        "camouflage_00002816.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_3shot_split1.json": [
+        "camouflage_00002816.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_5shot_split1.json": [
+        "camouflage_00002816.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_3shot_split1.json": [
+        "camouflage_00002816.jpg",
+        "camouflage_00002817.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_5shot_split1.json": [
+        "camouflage_00002816.jpg",
+        "camouflage_00002817.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bat_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bat_5shot_split1.json": [
+        "camouflage_00002816.jpg",
+        "camouflage_00002817.jpg",
+        "camouflage_00002818.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_2shot_split1.json": [
+        "camouflage_00002820.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_3shot_split1.json": [
+        "camouflage_00002820.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_5shot_split1.json": [
+        "camouflage_00002820.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_3shot_split1.json": [
+        "camouflage_00002820.jpg",
+        "camouflage_00002821.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_5shot_split1.json": [
+        "camouflage_00002820.jpg",
+        "camouflage_00002821.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bear_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bear_5shot_split1.json": [
+        "camouflage_00002820.jpg",
+        "camouflage_00002821.jpg",
+        "camouflage_00002822.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_2shot_split1.json": [
+        "camouflage_00000628.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_3shot_split1.json": [
+        "camouflage_00000628.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_5shot_split1.json": [
+        "camouflage_00000628.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_3shot_split1.json": [
+        "camouflage_00000628.jpg",
+        "camouflage_00000630.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_5shot_split1.json": [
+        "camouflage_00000628.jpg",
+        "camouflage_00000630.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Bird_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Bird_5shot_split1.json": [
+        "camouflage_00000628.jpg",
+        "camouflage_00000630.jpg",
+        "camouflage_00000640.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_2shot_split1.json": [
+        "camouflage_00002048.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_3shot_split1.json": [
+        "camouflage_00002048.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_5shot_split1.json": [
+        "camouflage_00002048.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_3shot_split1.json": [
+        "camouflage_00002048.jpg",
+        "camouflage_00002049.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_5shot_split1.json": [
+        "camouflage_00002048.jpg",
+        "camouflage_00002049.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Body_Painting_5shot_split1.json": [
+        "camouflage_00002048.jpg",
+        "camouflage_00002049.jpg",
+        "camouflage_00002050.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_2shot_split1.json": [
+        "camouflage_00002784.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_3shot_split1.json": [
+        "camouflage_00002784.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_5shot_split1.json": [
+        "camouflage_00002784.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_3shot_split1.json": [
+        "camouflage_00002784.jpg",
+        "camouflage_00002785.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_5shot_split1.json": [
+        "camouflage_00002784.jpg",
+        "camouflage_00002785.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Camel_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Camel_5shot_split1.json": [
+        "camouflage_00002784.jpg",
+        "camouflage_00002785.jpg",
+        "camouflage_00002786.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_2shot_split1.json": [
+        "camouflage_00001137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_3shot_split1.json": [
+        "camouflage_00001137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_5shot_split1.json": [
+        "camouflage_00001137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_3shot_split1.json": [
+        "camouflage_00001137.jpg",
+        "camouflage_00001138.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_5shot_split1.json": [
+        "camouflage_00001137.jpg",
+        "camouflage_00001138.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Cat_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Cat_5shot_split1.json": [
+        "camouflage_00001137.jpg",
+        "camouflage_00001138.jpg",
+        "camouflage_00001139.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_2shot_split1.json": [
+        "camouflage_00001792.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_3shot_split1.json": [
+        "camouflage_00001792.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_5shot_split1.json": [
+        "camouflage_00001792.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_3shot_split1.json": [
+        "camouflage_00001792.jpg",
+        "camouflage_00001793.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_5shot_split1.json": [
+        "camouflage_00001792.jpg",
+        "camouflage_00001793.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crab_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crab_5shot_split1.json": [
+        "camouflage_00001792.jpg",
+        "camouflage_00001793.jpg",
+        "camouflage_00001794.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_2shot_split1.json": [
+        "camouflage_00001474.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_3shot_split1.json": [
+        "camouflage_00001474.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_5shot_split1.json": [
+        "camouflage_00001474.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_3shot_split1.json": [
+        "camouflage_00001474.jpg",
+        "camouflage_00001475.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_5shot_split1.json": [
+        "camouflage_00001474.jpg",
+        "camouflage_00001475.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Crocodile_5shot_split1.json": [
+        "camouflage_00001474.jpg",
+        "camouflage_00001475.jpg",
+        "camouflage_00001476.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_2shot_split1.json": [
+        "camouflage_00001120.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_3shot_split1.json": [
+        "camouflage_00001120.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_5shot_split1.json": [
+        "camouflage_00001120.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_3shot_split1.json": [
+        "camouflage_00001120.jpg",
+        "camouflage_00001121.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_5shot_split1.json": [
+        "camouflage_00001120.jpg",
+        "camouflage_00001121.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Deer_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Deer_5shot_split1.json": [
+        "camouflage_00001120.jpg",
+        "camouflage_00001121.jpg",
+        "camouflage_00001122.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_2shot_split1.json": [
+        "camouflage_00001247.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_3shot_split1.json": [
+        "camouflage_00001247.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_5shot_split1.json": [
+        "camouflage_00001247.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_3shot_split1.json": [
+        "camouflage_00001247.jpg",
+        "camouflage_00001248.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_5shot_split1.json": [
+        "camouflage_00001247.jpg",
+        "camouflage_00001248.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dog_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dog_5shot_split1.json": [
+        "camouflage_00001230.jpg",
+        "camouflage_00001247.jpg",
+        "camouflage_00001248.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_2shot_split1.json": [
+        "camouflage_00002690.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_3shot_split1.json": [
+        "camouflage_00002690.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_5shot_split1.json": [
+        "camouflage_00002690.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_3shot_split1.json": [
+        "camouflage_00002690.jpg",
+        "camouflage_00002691.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_5shot_split1.json": [
+        "camouflage_00002690.jpg",
+        "camouflage_00002691.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Dolphin_5shot_split1.json": [
+        "camouflage_00002690.jpg",
+        "camouflage_00002691.jpg",
+        "camouflage_00002693.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_2shot_split1.json": [
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_3shot_split1.json": [
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_5shot_split1.json": [
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_3shot_split1.json": [
+        "camouflage_00002795.jpg",
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_5shot_split1.json": [
+        "camouflage_00002795.jpg",
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Elephant_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Elephant_5shot_split1.json": [
+        "camouflage_00002795.jpg",
+        "camouflage_00002796.jpg",
+        "camouflage_00002807.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_2shot_split1.json": [
+        "camouflage_00001738.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_3shot_split1.json": [
+        "camouflage_00001738.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_5shot_split1.json": [
+        "camouflage_00001738.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_3shot_split1.json": [
+        "camouflage_00001738.jpg",
+        "camouflage_00001773.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_5shot_split1.json": [
+        "camouflage_00001738.jpg",
+        "camouflage_00001773.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fish_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fish_5shot_split1.json": [
+        "camouflage_00001738.jpg",
+        "camouflage_00001743.jpg",
+        "camouflage_00001773.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_2shot_split1.json": [
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_3shot_split1.json": [
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_5shot_split1.json": [
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_3shot_split1.json": [
+        "camouflage_00000434.jpg",
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_5shot_split1.json": [
+        "camouflage_00000434.jpg",
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Fox_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Fox_5shot_split1.json": [
+        "camouflage_00000434.jpg",
+        "camouflage_00000435.jpg",
+        "camouflage_00001206.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_2shot_split1.json": [
+        "camouflage_00002560.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_3shot_split1.json": [
+        "camouflage_00002560.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_5shot_split1.json": [
+        "camouflage_00002560.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_3shot_split1.json": [
+        "camouflage_00002560.jpg",
+        "camouflage_00002561.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_5shot_split1.json": [
+        "camouflage_00002560.jpg",
+        "camouflage_00002561.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Frog_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Frog_5shot_split1.json": [
+        "camouflage_00002560.jpg",
+        "camouflage_00002561.jpg",
+        "camouflage_00002562.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_2shot_split1.json": [
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_3shot_split1.json": [
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_5shot_split1.json": [
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_3shot_split1.json": [
+        "camouflage_00001112.jpg",
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_5shot_split1.json": [
+        "camouflage_00001112.jpg",
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Giraffe_5shot_split1.json": [
+        "camouflage_00001102.jpg",
+        "camouflage_00001112.jpg",
+        "camouflage_00001113.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_2shot_split1.json": [
+        "camouflage_00000352.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_3shot_split1.json": [
+        "camouflage_00000352.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_5shot_split1.json": [
+        "camouflage_00000352.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_3shot_split1.json": [
+        "camouflage_00000352.jpg",
+        "camouflage_00001128.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_5shot_split1.json": [
+        "camouflage_00000352.jpg",
+        "camouflage_00001128.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Goat_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Goat_5shot_split1.json": [
+        "camouflage_00000352.jpg",
+        "camouflage_00001128.jpg",
+        "camouflage_00001129.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_2shot_split1.json": [
+        "camouflage_00001312.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_3shot_split1.json": [
+        "camouflage_00001312.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_5shot_split1.json": [
+        "camouflage_00001312.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_3shot_split1.json": [
+        "camouflage_00001312.jpg",
+        "camouflage_00001313.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_5shot_split1.json": [
+        "camouflage_00001312.jpg",
+        "camouflage_00001313.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Hedgehog_5shot_split1.json": [
+        "camouflage_00001312.jpg",
+        "camouflage_00001313.jpg",
+        "camouflage_00001314.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_2shot_split1.json": [
+        "camouflage_00002702.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_3shot_split1.json": [
+        "camouflage_00002702.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_5shot_split1.json": [
+        "camouflage_00002702.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_3shot_split1.json": [
+        "camouflage_00002702.jpg",
+        "camouflage_00002703.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_5shot_split1.json": [
+        "camouflage_00002702.jpg",
+        "camouflage_00002703.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Horse_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Horse_5shot_split1.json": [
+        "camouflage_00002702.jpg",
+        "camouflage_00002703.jpg",
+        "camouflage_00002704.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_2shot_split1.json": [
+        "camouflage_00002137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_3shot_split1.json": [
+        "camouflage_00002137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_5shot_split1.json": [
+        "camouflage_00002137.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_3shot_split1.json": [
+        "camouflage_00002137.jpg",
+        "camouflage_00002138.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_5shot_split1.json": [
+        "camouflage_00002137.jpg",
+        "camouflage_00002138.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Insect_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Insect_5shot_split1.json": [
+        "camouflage_00000528.jpg",
+        "camouflage_00002137.jpg",
+        "camouflage_00002138.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_2shot_split1.json": [
+        "camouflage_00001052.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_3shot_split1.json": [
+        "camouflage_00001052.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_5shot_split1.json": [
+        "camouflage_00001052.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_3shot_split1.json": [
+        "camouflage_00001052.jpg",
+        "camouflage_00001053.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_5shot_split1.json": [
+        "camouflage_00001052.jpg",
+        "camouflage_00001053.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Kangaroo_5shot_split1.json": [
+        "camouflage_00001052.jpg",
+        "camouflage_00001053.jpg",
+        "camouflage_00002718.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_2shot_split1.json": [
+        "camouflage_00001025.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_3shot_split1.json": [
+        "camouflage_00001025.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_5shot_split1.json": [
+        "camouflage_00001025.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_3shot_split1.json": [
+        "camouflage_00001025.jpg",
+        "camouflage_00001026.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_5shot_split1.json": [
+        "camouflage_00001025.jpg",
+        "camouflage_00001026.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Leopard_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Leopard_5shot_split1.json": [
+        "camouflage_00001025.jpg",
+        "camouflage_00001026.jpg",
+        "camouflage_00001027.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_2shot_split1.json": [
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_3shot_split1.json": [
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_5shot_split1.json": [
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_3shot_split1.json": [
+        "camouflage_00000425.jpg",
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_5shot_split1.json": [
+        "camouflage_00000425.jpg",
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lion_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lion_5shot_split1.json": [
+        "camouflage_00000425.jpg",
+        "camouflage_00000426.jpg",
+        "camouflage_00001024.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_2shot_split1.json": [
+        "camouflage_00000252.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_3shot_split1.json": [
+        "camouflage_00000252.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_5shot_split1.json": [
+        "camouflage_00000252.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_3shot_split1.json": [
+        "camouflage_00000252.jpg",
+        "camouflage_00000253.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_5shot_split1.json": [
+        "camouflage_00000252.jpg",
+        "camouflage_00000253.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Lizard_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Lizard_5shot_split1.json": [
+        "camouflage_00000252.jpg",
+        "camouflage_00000253.jpg",
+        "camouflage_00000254.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_2shot_split1.json": [
+        "camouflage_00002740.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_3shot_split1.json": [
+        "camouflage_00002740.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_5shot_split1.json": [
+        "camouflage_00002740.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_3shot_split1.json": [
+        "camouflage_00002740.jpg",
+        "camouflage_00002741.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_5shot_split1.json": [
+        "camouflage_00002740.jpg",
+        "camouflage_00002741.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Monkey_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Monkey_5shot_split1.json": [
+        "camouflage_00002740.jpg",
+        "camouflage_00002741.jpg",
+        "camouflage_00002742.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_2shot_split1.json": [
+        "camouflage_00002272.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_3shot_split1.json": [
+        "camouflage_00002272.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_5shot_split1.json": [
+        "camouflage_00002272.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_3shot_split1.json": [
+        "camouflage_00002272.jpg",
+        "camouflage_00002273.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_5shot_split1.json": [
+        "camouflage_00002272.jpg",
+        "camouflage_00002273.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Moth_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Moth_5shot_split1.json": [
+        "camouflage_00002234.jpg",
+        "camouflage_00002272.jpg",
+        "camouflage_00002273.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_2shot_split1.json": [
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_3shot_split1.json": [
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_5shot_split1.json": [
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_3shot_split1.json": [
+        "camouflage_00000493.jpg",
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_5shot_split1.json": [
+        "camouflage_00000493.jpg",
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Mouse_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Mouse_5shot_split1.json": [
+        "camouflage_00000493.jpg",
+        "camouflage_00000494.jpg",
+        "camouflage_00001259.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_2shot_split1.json": [
+        "camouflage_00000000.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_3shot_split1.json": [
+        "camouflage_00000000.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_5shot_split1.json": [
+        "camouflage_00000000.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_3shot_split1.json": [
+        "camouflage_00000000.jpg",
+        "camouflage_00000001.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_5shot_split1.json": [
+        "camouflage_00000000.jpg",
+        "camouflage_00000001.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Octopus_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Octopus_5shot_split1.json": [
+        "camouflage_00000000.jpg",
+        "camouflage_00000001.jpg",
+        "camouflage_00000002.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_2shot_split1.json": [
+        "camouflage_00000694.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_3shot_split1.json": [
+        "camouflage_00000694.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_5shot_split1.json": [
+        "camouflage_00000694.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_3shot_split1.json": [
+        "camouflage_00000694.jpg",
+        "camouflage_00002757.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_5shot_split1.json": [
+        "camouflage_00000694.jpg",
+        "camouflage_00002757.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Penguin_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Penguin_5shot_split1.json": [
+        "camouflage_00000694.jpg",
+        "camouflage_00002757.jpg",
+        "camouflage_00002758.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_2shot_split1.json": [
+        "camouflage_00000512.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_3shot_split1.json": [
+        "camouflage_00000512.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_5shot_split1.json": [
+        "camouflage_00000512.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_3shot_split1.json": [
+        "camouflage_00000512.jpg",
+        "camouflage_00000513.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_5shot_split1.json": [
+        "camouflage_00000512.jpg",
+        "camouflage_00000513.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Pig_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Pig_5shot_split1.json": [
+        "camouflage_00000512.jpg",
+        "camouflage_00000513.jpg",
+        "camouflage_00000514.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_2shot_split1.json": [
+        "camouflage_00001059.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_3shot_split1.json": [
+        "camouflage_00001059.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_5shot_split1.json": [
+        "camouflage_00001059.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_3shot_split1.json": [
+        "camouflage_00001059.jpg",
+        "camouflage_00001060.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_5shot_split1.json": [
+        "camouflage_00001059.jpg",
+        "camouflage_00001060.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rabbit_5shot_split1.json": [
+        "camouflage_00001059.jpg",
+        "camouflage_00001060.jpg",
+        "camouflage_00001061.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_2shot_split1.json": [
+        "camouflage_00001288.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_3shot_split1.json": [
+        "camouflage_00001288.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_5shot_split1.json": [
+        "camouflage_00001288.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_3shot_split1.json": [
+        "camouflage_00001288.jpg",
+        "camouflage_00001290.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_5shot_split1.json": [
+        "camouflage_00001288.jpg",
+        "camouflage_00001290.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Rhino_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Rhino_5shot_split1.json": [
+        "camouflage_00001288.jpg",
+        "camouflage_00001290.jpg",
+        "camouflage_00001291.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_2shot_split1.json": [
+        "camouflage_00002600.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_3shot_split1.json": [
+        "camouflage_00002600.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_5shot_split1.json": [
+        "camouflage_00002600.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_3shot_split1.json": [
+        "camouflage_00002600.jpg",
+        "camouflage_00002601.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_5shot_split1.json": [
+        "camouflage_00002600.jpg",
+        "camouflage_00002601.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Scorpion_5shot_split1.json": [
+        "camouflage_00002600.jpg",
+        "camouflage_00002601.jpg",
+        "camouflage_00002602.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_2shot_split1.json": [
+        "camouflage_00000414.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_3shot_split1.json": [
+        "camouflage_00000414.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_5shot_split1.json": [
+        "camouflage_00000414.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_3shot_split1.json": [
+        "camouflage_00000414.jpg",
+        "camouflage_00000415.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_5shot_split1.json": [
+        "camouflage_00000414.jpg",
+        "camouflage_00000415.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sea_Lion_5shot_split1.json": [
+        "camouflage_00000414.jpg",
+        "camouflage_00000415.jpg",
+        "camouflage_00000416.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_2shot_split1.json": [
+        "camouflage_00001536.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_3shot_split1.json": [
+        "camouflage_00001536.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_5shot_split1.json": [
+        "camouflage_00001536.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_3shot_split1.json": [
+        "camouflage_00001536.jpg",
+        "camouflage_00001537.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_5shot_split1.json": [
+        "camouflage_00001536.jpg",
+        "camouflage_00001537.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Seahorse_5shot_split1.json": [
+        "camouflage_00001536.jpg",
+        "camouflage_00001537.jpg",
+        "camouflage_00001538.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_2shot_split1.json": [
+        "camouflage_00001655.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_3shot_split1.json": [
+        "camouflage_00001655.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_5shot_split1.json": [
+        "camouflage_00001655.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_3shot_split1.json": [
+        "camouflage_00001655.jpg",
+        "camouflage_00001656.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_5shot_split1.json": [
+        "camouflage_00001655.jpg",
+        "camouflage_00001656.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Shrimp_5shot_split1.json": [
+        "camouflage_00001655.jpg",
+        "camouflage_00001656.jpg",
+        "camouflage_00001657.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_2shot_split1.json": [
+        "camouflage_00000523.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_3shot_split1.json": [
+        "camouflage_00000523.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_5shot_split1.json": [
+        "camouflage_00000523.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_3shot_split1.json": [
+        "camouflage_00000523.jpg",
+        "camouflage_00000525.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_5shot_split1.json": [
+        "camouflage_00000523.jpg",
+        "camouflage_00000525.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Sloth_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Sloth_5shot_split1.json": [
+        "camouflage_00000523.jpg",
+        "camouflage_00000525.jpg",
+        "camouflage_00000526.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_2shot_split1.json": [
+        "camouflage_00002080.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_3shot_split1.json": [
+        "camouflage_00002080.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_5shot_split1.json": [
+        "camouflage_00002080.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_3shot_split1.json": [
+        "camouflage_00002080.jpg",
+        "camouflage_00002082.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_5shot_split1.json": [
+        "camouflage_00002080.jpg",
+        "camouflage_00002082.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snail_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snail_5shot_split1.json": [
+        "camouflage_00002080.jpg",
+        "camouflage_00002082.jpg",
+        "camouflage_00002083.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_2shot_split1.json": [
+        "camouflage_00001316.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_3shot_split1.json": [
+        "camouflage_00001316.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_5shot_split1.json": [
+        "camouflage_00001316.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_3shot_split1.json": [
+        "camouflage_00001316.jpg",
+        "camouflage_00001317.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_5shot_split1.json": [
+        "camouflage_00001316.jpg",
+        "camouflage_00001317.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Snake_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Snake_5shot_split1.json": [
+        "camouflage_00001316.jpg",
+        "camouflage_00001317.jpg",
+        "camouflage_00001318.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_2shot_split1.json": [
+        "camouflage_00001934.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_3shot_split1.json": [
+        "camouflage_00001934.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_5shot_split1.json": [
+        "camouflage_00001934.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_3shot_split1.json": [
+        "camouflage_00001909.jpg",
+        "camouflage_00001934.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_5shot_split1.json": [
+        "camouflage_00001909.jpg",
+        "camouflage_00001934.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Solider_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Solider_5shot_split1.json": [
+        "camouflage_00001909.jpg",
+        "camouflage_00001934.jpg",
+        "camouflage_00001935.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_2shot_split1.json": [
+        "camouflage_00002606.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_3shot_split1.json": [
+        "camouflage_00002606.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_5shot_split1.json": [
+        "camouflage_00002606.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_3shot_split1.json": [
+        "camouflage_00002606.jpg",
+        "camouflage_00002607.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_5shot_split1.json": [
+        "camouflage_00002606.jpg",
+        "camouflage_00002607.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Spider_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Spider_5shot_split1.json": [
+        "camouflage_00002606.jpg",
+        "camouflage_00002607.jpg",
+        "camouflage_00002608.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_2shot_split1.json": [
+        "camouflage_00000517.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_3shot_split1.json": [
+        "camouflage_00000517.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_5shot_split1.json": [
+        "camouflage_00000517.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_3shot_split1.json": [
+        "camouflage_00000517.jpg",
+        "camouflage_00000518.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_5shot_split1.json": [
+        "camouflage_00000517.jpg",
+        "camouflage_00000518.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Squirrel_5shot_split1.json": [
+        "camouflage_00000517.jpg",
+        "camouflage_00000518.jpg",
+        "camouflage_00000519.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_2shot_split1.json": [
+        "camouflage_00001664.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_3shot_split1.json": [
+        "camouflage_00001664.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_5shot_split1.json": [
+        "camouflage_00001664.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_3shot_split1.json": [
+        "camouflage_00001664.jpg",
+        "camouflage_00001665.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_5shot_split1.json": [
+        "camouflage_00001664.jpg",
+        "camouflage_00001665.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Starfish_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Starfish_5shot_split1.json": [
+        "camouflage_00001664.jpg",
+        "camouflage_00001665.jpg",
+        "camouflage_00001666.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_2shot_split1.json": [
+        "camouflage_00001282.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_3shot_split1.json": [
+        "camouflage_00001282.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_5shot_split1.json": [
+        "camouflage_00001282.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_3shot_split1.json": [
+        "camouflage_00001282.jpg",
+        "camouflage_00001283.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_5shot_split1.json": [
+        "camouflage_00001282.jpg",
+        "camouflage_00001283.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Tiger_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Tiger_5shot_split1.json": [
+        "camouflage_00001282.jpg",
+        "camouflage_00001283.jpg",
+        "camouflage_00001285.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_2shot_split1.json": [
+        "camouflage_00001482.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_3shot_split1.json": [
+        "camouflage_00001482.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_5shot_split1.json": [
+        "camouflage_00001482.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_3shot_split1.json": [
+        "camouflage_00001482.jpg",
+        "camouflage_00001483.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_5shot_split1.json": [
+        "camouflage_00001482.jpg",
+        "camouflage_00001483.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Turtle_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Turtle_5shot_split1.json": [
+        "camouflage_00001482.jpg",
+        "camouflage_00001483.jpg",
+        "camouflage_00001484.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_2shot_split1.json": [
+        "camouflage_00001084.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_3shot_split1.json": [
+        "camouflage_00001084.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_5shot_split1.json": [
+        "camouflage_00001084.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_3shot_split1.json": [
+        "camouflage_00001084.jpg",
+        "camouflage_00001085.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_5shot_split1.json": [
+        "camouflage_00001084.jpg",
+        "camouflage_00001085.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Weasel_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Weasel_5shot_split1.json": [
+        "camouflage_00001084.jpg",
+        "camouflage_00001085.jpg",
+        "camouflage_00001086.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_2shot_split1.json": [
+        "camouflage_00000319.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_3shot_split1.json": [
+        "camouflage_00000319.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_1shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_5shot_split1.json": [
+        "camouflage_00000319.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_3shot_split1.json": [
+        "camouflage_00000319.jpg",
+        "camouflage_00000320.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_2shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_5shot_split1.json": [
+        "camouflage_00000319.jpg",
+        "camouflage_00000320.jpg"
+      ],
+      "few-shot-annotations\\subsplit\\split1\\camo5_Worm_3shot_split1.json ∩ few-shot-annotations\\subsplit\\split1\\camo5_Worm_5shot_split1.json": [
+        "camouflage_00000319.jpg",
+        "camouflage_00000320.jpg",
+        "camouflage_00000321.jpg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Tested on Python 3.13.15 / torch 2.14.1+cu130 / ultralytics 8.4.210
+ultralytics
+torch
+torchvision
+opencv-python
+numpy
+pyyaml
+onnxruntime
+
+# Optional packages for Step 4 edge export (ONNX / NCNN)
+# onnx
+# onnxslim
+# ncnn

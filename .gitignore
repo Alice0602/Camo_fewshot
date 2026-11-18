@@ -1,0 +1,30 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Base pretrained weights (tai tu dong boi Ultralytics khi train)
+/*.pt
+
+# Kaggle staging & archives
+kaggle_upload/
+*.zip
+*.7z
+*.tar.gz
+
+# Processed dataset (upload rieng len Kaggle Dataset)
+runs/processed_data/
+
+# Chi giu lai dung 2 model da chon (k5_seed0)
+runs/models/*
+!runs/models/v8s_rich_backbone_k5_seed0/
+!runs/models/v8n_nomosaic_stable_k5_seed0/
+
+# Khong bao gio dua best.pt len Git (quy chuan chi dung weights/last.pt)
+runs/models/**/weights/best.pt
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
